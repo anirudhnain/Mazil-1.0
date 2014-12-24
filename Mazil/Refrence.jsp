@@ -31,7 +31,7 @@ for(Cookie cookie : cookies)
 		run="1";
 		//System.out.println("Cookie[0] : "+cookies[0].getValue()+" Cookie[1] : "+cookies[1].getValue());
     	Folder[] folder = Authentication.getStore().getDefaultFolder().list("*");
-    	ReadingEmail[] mail=new ReadingEmail[17];
+    	ReadingEmail[] mail=new ReadingEmail[700];
     	for(int iter=0;iter<folder.length;iter++)
     	{
     		if((iter>0 && iter<=7) || iter==9 || iter==12)
